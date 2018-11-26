@@ -38,7 +38,7 @@ export const codeCellIdsBelow = (model: NotebookModel) => {
   return cellOrder
     .skip(index)
     .filter(
-      (id: string) =>
+      (id: CellId) =>
         model.notebook.getIn(["cellMap", id, "cell_type"]) === "code"
     );
 };
