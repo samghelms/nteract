@@ -16,5 +16,5 @@ module.exports = {
   externalPattern: "**/node_modules/**",
   excludeExternals: "true",
   stripInternal: "false",
-  tsconfig: "tsconfig.base.json"
+  tsconfig: "packages/tsconfig.base.json"
 };

@@ -3,7 +3,7 @@
 const path = require("path");
 
 const reactDocgenTypescript = require("react-docgen-typescript").withCustomConfig(
-  "./tsconfig.base.json"
+  "packages/tsconfig.base.json"
 );
 
 const babelFlowConfig = require("./babel.flow.config");
